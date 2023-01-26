@@ -9,7 +9,10 @@ const sky = document.querySelector('.sky');
 const currentCity = document.querySelector('.current-city');
 const weathehImage = document.querySelector('.weatheh-image');
 const weatherForWeek = document.querySelector('.weather-for-week')
+const currentData = document.querySelector('.current-data');
 
+const date = new Date();
+currentData.textContent = date.toDateString();
 
 ipBase.info().then(response => {
     const cityName = response.data.location.city.name;
