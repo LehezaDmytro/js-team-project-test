@@ -17,7 +17,7 @@ currentData.textContent = date.toDateString();
 ipBase.info().then(response => {
     const cityName = response.data.location.city.name;
     console.log(response);
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${OPENWEATHERMAP_API_KEY}`).then(response => {
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${OPENWEATHERMAP_API_KEY}`).then(response => {
             if (!response.ok) {
             throw new Error(response.status);
             }
