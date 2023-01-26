@@ -1,0 +1,92 @@
+.weather-container{
+    width: 288px;
+    height: 489px;
+
+    padding: 32px 36px;
+
+    text-align: center;
+    background-color: #4440F7;
+    border-radius: 4px;
+}
+
+.weather-and-location{
+    display: flex;
+
+    padding-top: 5px;
+    margin-bottom: 40px;
+}
+
+.degrees{
+    padding-right: 1px;
+
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 64px;
+
+    color: #FFFFFF;
+
+    border-right: 2px solid #FFFFFF;
+}
+
+.location-box{
+    padding-left: 11px;
+}
+
+.sky{
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.current-city{
+    padding: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+    background-color: rgba(254, 254, 255, 0.3);
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.weatheh-image{
+    width: 128px;
+    height: 121px;
+
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.current-data{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.weather-for-week{
+    text-decoration: none;
+    padding: 8px 14px;
+    margin: 0 auto;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    background-color: rgba(254, 254, 255, 0.3);
+    border-radius: 10px;
+}

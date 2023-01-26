@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <!-- <include src="./partials/example.html"></include> -->
+    <div class="weather-container">
+      <div class="weather-and-location">
+        <div class="degrees"></div>
+        <div class="location-box">
+          <p class="sky"></p>
+          <p class="current-city"></p>
+        </div>
+      </div>
+      <div class="weatheh-image"></div>
+      <p class="current-data">Mon 21 Jan 2021</p>
+      <a
+        class="weather-for-week"
+        target="_blank"
+        href="https://openweathermap.org/city/689487"
+        >weather for week</a
+      >
+    </div>
+  </body>
+</html>
