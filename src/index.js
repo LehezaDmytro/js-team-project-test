@@ -27,7 +27,7 @@ ipBase.info().then(response => {
                 degrees.innerHTML = Math.round(data.main.temp - 273) + '&deg;';
                 sky.textContent = data.weather[0].main
                 currentCity.textContent = data.name
-                weathehImage.innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">`
+                weathehImage.innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png" alt="">`
                 weatherForWeek.setAttribute('href', `https://openweathermap.org/city/${data.id}`)
             });
 });
